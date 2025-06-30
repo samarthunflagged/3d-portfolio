@@ -5,20 +5,20 @@ import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
-import Feedbacks from './Feedbacks';
+import Feedbacks from './Profiles';
 import Contact from './Contact';
-
+import Profiles from './Profiles';
 export {
   Hero,
   Navbar,
   About,
   Tech,
-  Experience,
+  Profiles,
   Works,
-  Feedbacks,
+  Experience,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
   StarsCanvas
 }

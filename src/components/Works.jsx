@@ -2,15 +2,16 @@ import Tilt from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github } from '../assets'
+import { externallink } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion';
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_demo_link }) => {
   return <motion.div
     variants={fadeIn('up', "spring", index * 0.5, 0.75)}>
     <Tilt
       options={{
-        max: 45,
+        max: 35,
         scale: 1,
         speed: 450
       }}
@@ -30,16 +31,16 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             <img
               src={github}
               alt="github"
-              className='w-1/2 h-1/2 object-contain' />
+              className='w-[75%] h-[75%] object-contain' />
           </div>
           <div
-            onClick={() => window.open(source_code_link, "_blank")}
+            onClick={() => window.open(live_demo_link, "_blank")}
             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
           >
             <img
-              src={github}
+              src={externallink}
               alt="github"
-              className='w-1/2 h-1/2 object-contain' />
+              className='w-[50%] h-[50%] object-contain' />
           </div>
         </div>
       </div>
@@ -74,14 +75,22 @@ const Works = () => {
       <div className='mt-20 flex flex-wrap gap-7'>
         {
           projects.map(
-            (project, index) => (<ProjectCard
-              key={`project-${index}`}
-              index={index}
-              {...project} />
+            (project, index) => (
+              <ProjectCard
+                key={`project-${index}`}
+                index={index}
+                {...project}
+              />
             )
           )
         }
+
+        {/* More Coming Soon Placeholder */}
+        <div className='w-[360px] min-h-[400px] bg-black-200 rounded-3xl flex items-center justify-center border-2 border-dashed border-gray-500'>
+          <p className='text-gray-300 text-xl italic'>🚧 More Coming Soon...</p>
+        </div>
       </div>
+
     </>
   )
 }

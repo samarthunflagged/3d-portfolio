@@ -17,7 +17,7 @@ const ExperienceCard = ({ experience }) => (
       <img
         src={experience.icon}
         alt={experience.company_name}
-        className='w-[60%] h-[60%] object-contain'
+        className='w-[100%] h-[100%] object-contain'
       />
     </div>
     }
@@ -40,8 +40,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={styles.sectionSubText}>What I have learnt so far</p>
+        <h2 className={styles.sectionHeadText}>My Learning.</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

@@ -20,16 +20,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import externallink from './externallink.png'
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import usePopcorn from './usePopcorn.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import coffeeproject from './coffeeproject.png'
+import worldwise from './worldwise.png'
+import codeforces from './codeforces.jpg'
+import codechef from './codechef.png'
+import leetcode from './leetcode.png'
 export {
   logo,
   backend,
@@ -59,4 +63,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  externallink,
+  usePopcorn,
+  coffeeproject,
+  worldwise,
+  codeforces,
+  codechef,
+  leetcode
 };

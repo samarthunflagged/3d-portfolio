@@ -36,7 +36,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae blanditiis quas quasi doloremque. Laborum molestias reiciendis quia beatae autem omnis libero ipsum, officia blanditiis, neque suscipit. Obcaecati assumenda nam repellat officiis, doloribus tempore quae a cupiditate libero sed atque corrupti quidem delectus omnis ab iusto vero harum non odio?
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (<ServiceCard key={service.title} index={index}{...service} />))}
       </div>
     </>
