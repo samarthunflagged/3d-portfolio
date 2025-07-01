@@ -214,7 +214,7 @@ const projects = [
     {
         name: "UsePopcorn",
         description:
-            "Web application that helps users to keep track of their favorite movies and shows. Uses local storage for fast experience and external APIs for data fetching.",
+            "Web application that helps users to keep track of their favorite movies and shows. Uses local storage for fast Learning and external APIs for data fetching.",
         tags: [
             {
                 name: "react",
@@ -286,5 +286,9 @@ const projects = [
         live_demo_link: "",
     },
 ];
-
-export { services, technologies, experiences, testimonials, projects };
+const learning = [{
+    name: "Project1",
+    image: worldwise,
+    description: 'wifhnewrk'
+}]
+export { services, technologies, learning, testimonials, projects };
