@@ -2,41 +2,53 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import { motion } from 'framer-motion';
 import 'react-vertical-timeline-component/style.min.css';
 import { styles } from '../styles';
-import { learning } from '../constants'; // changed from 'experiences' to 'learning'
+import { learning } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from "../utils/motion";
+import { ProjectCard } from './Works';
 
-const ExperienceCard = ({ project, index }) => (
-  <VerticalTimelineElement
-    contentStyle={{ background: '#1d1836', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid #232631' }}
-    date={`Random Date ${index + 1}`} // Placeholder date
-    iconStyle={{
-      background: "#232631",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      fontSize: "20px",
-      color: "#fff",
-    }}
-    icon={<div>{index + 1}</div>}
-  >
-    <div>
-      <h3 className="text-white text-[24px] font-bold mb-4">{project.name}</h3>
+const ExperienceCard = ({ project, index }) => {
 
-      {/* Image styled like Works.jsx */}
-      <div className='w-full h-[230px] mb-4'>
-        <img
-          src={project.image}
-          alt={project.name}
-          className='w-full h-full object-cover rounded-2xl'
+
+  return (
+    <VerticalTimelineElement
+      contentStyle={{
+        background: "transparent",
+        boxShadow: "none",
+        padding: "0",
+        display: 'flex',
+        justifyContent: 'center'
+      }}
+      contentArrowStyle={{ borderRight: "7px solid #232631" }}
+      date={project.date || `Date ${index + 1}`}
+      iconStyle={{
+        background: "#232631",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: "20px",
+        color: "#fff",
+      }}
+      icon={<div>{index + 1}</div>}
+    >
+      <div>
+        <ProjectCard
+          index={index}
+          name={project.name}
+          description={project.description}
+          image={project.image}
+          tags={project.tags}
+          source_code_link={project.source_code_link}
+          live_demo_link={project.live_demo_link}
+
         />
       </div>
+    </VerticalTimelineElement>
+  );
+};
 
-      <p className='text-secondary text-[14px]'>{project.description}</p>
-    </div>
-  </VerticalTimelineElement>
-);
+
+
 
 const Learning = () => {
   return (

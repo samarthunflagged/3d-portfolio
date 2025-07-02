@@ -1,34 +1,39 @@
 // import dsa from 'src/assets/dsa.png'
 import {
-    mobile,
-    backend,
-    creator,
+    ml,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+
+    vue_jobs,
+
     threejs,
     usePopcorn,
     coffeeproject,
     worldwise,
     codeforces,
-    codechef
+    codechef,
+    dsa,
+    pizza_menu,
+    profile_card,
+    steps,
+    flashcards,
+    date_counter,
+    travel_list,
+    accordion,
+    tip_calculator,
+    eat_n_split,
+    react_counter_todo_app,
+    text_expander,
+    how_react_works,
+    react_quiz
 
 } from "../assets";
 
@@ -54,11 +59,11 @@ const services = [
     },
     {
         title: "DSA Enthusiast",
-        icon: mobile,
+        icon: dsa,
     },
     {
         title: "Machine Learning Enthusiast",
-        icon: backend,
+        icon: ml,
     },
 
 ];
@@ -106,62 +111,62 @@ const technologies = [
     },
 ];
 
-const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
+// const experiences = [
+//     {
+//         title: "React.js Developer",
+//         company_name: "Starbucks",
+//         icon: starbucks,
+//         iconBg: "#383E56",
+//         date: "March 2020 - April 2021",
+//         points: [
+//             "Developing and maintaining web applications using React.js and other related technologies.",
+//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//             "Implementing responsive design and ensuring cross-browser compatibility.",
+//             "Participating in code reviews and providing constructive feedback to other developers.",
+//         ],
+//     },
+//     {
+//         title: "React Native Developer",
+//         company_name: "Tesla",
+//         icon: tesla,
+//         iconBg: "#E6DEDD",
+//         date: "Jan 2021 - Feb 2022",
+//         points: [
+//             "Developing and maintaining web applications using React.js and other related technologies.",
+//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//             "Implementing responsive design and ensuring cross-browser compatibility.",
+//             "Participating in code reviews and providing constructive feedback to other developers.",
+//         ],
+//     },
+//     {
+//         title: "Web Developer",
+//         company_name: "Shopify",
+//         icon: shopify,
+//         iconBg: "#383E56",
+//         date: "Jan 2022 - Jan 2023",
+//         points: [
+//             "Developing and maintaining web applications using React.js and other related technologies.",
+//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//             "Implementing responsive design and ensuring cross-browser compatibility.",
+//             "Participating in code reviews and providing constructive feedback to other developers.",
+//         ],
+//     },
+//     {
+//         title: "Full stack Developer",
+//         company_name: "Meta",
+//         icon: meta,
+//         iconBg: "#E6DEDD",
+//         date: "Jan 2023 - Present",
+//         points: [
+//             "Developing and maintaining web applications using React.js and other related technologies.",
+//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//             "Implementing responsive design and ensuring cross-browser compatibility.",
+//             "Participating in code reviews and providing constructive feedback to other developers.",
+//         ],
+//     },
+// ];
 
-const testimonials = [
+const profiles = [
     {
         testimonial:
             "🌟 Solved ~180 problems | 1503 Rating | Regular contest participant. I use LeetCode to sharpen my DSA daily.",
@@ -207,7 +212,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: vue_jobs,
         source_code_link: "https://github.com/samarth3282/vue-jobs",
         live_demo_link: "https://vuejobsforu.vercel.app/"
     },
@@ -286,9 +291,232 @@ const projects = [
         live_demo_link: "",
     },
 ];
-const learning = [{
-    name: "Project1",
-    image: worldwise,
-    description: 'wifhnewrk'
-}]
-export { services, technologies, learning, testimonials, projects };
+const learning = [
+    {
+        name: "Pizza Menu",
+        description: "Started with core React concepts like JSX, props, and reusable components. Built a static pizza menu app that helped me understand component-based architecture.",
+        image: pizza_menu,
+        date: "12/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "jsx", color: "purple-text-gradient" },
+            { name: "css", color: "pink-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Profile Card",
+        description: "A challenge after Pizza Menu to deepen my understanding of component composition and styling. Practiced passing props to multiple child components.",
+        image: profile_card,
+        date: "13/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "props", color: "green-text-gradient" },
+            { name: "css", color: "pink-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Steps",
+        description: "Learned to manage interactive UI using `useState`. Built a step tracker which strengthened my understanding of how state drives rendering.",
+        image: steps,
+        date: "14/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "useState", color: "green-text-gradient" },
+            { name: "logic", color: "orange-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Flashcards",
+        description: "Challenge after Steps. Reinforced state management and conditional rendering by building a toggle-based flashcard app.",
+        image: flashcards,
+        date: "15/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "conditional rendering", color: "purple-text-gradient" },
+            { name: "state toggling", color: "green-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Date Counter",
+        description: "Another challenge after Steps. Learned to apply controlled state updates and arithmetic logic inside components.",
+        image: date_counter,
+        date: "16/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "useState", color: "green-text-gradient" },
+            { name: "date logic", color: "orange-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Travel List",
+        description: "Advanced to array state operations. Practiced dynamic list rendering, form inputs, and immutable updates while building a travel packing list.",
+        image: travel_list,
+        date: "18/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "lists", color: "purple-text-gradient" },
+            { name: "forms", color: "pink-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Accordion",
+        description: "Challenge after Travel List. Focused on one-at-a-time expansion behavior, conditional rendering, and dynamic state toggling.",
+        image: accordion,
+        date: "19/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "accordion", color: "green-text-gradient" },
+            { name: "toggle logic", color: "orange-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Tip Calculator",
+        description: "Reinforced multiple state management, form handling, and input validation. Worked on computing derived values based on user inputs.",
+        image: tip_calculator,
+        date: "20/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "form handling", color: "green-text-gradient" },
+            { name: "validation", color: "pink-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Eat and Split",
+        description: "Learned how to lift state up and manage shared data between components. Focused on splitting logic and conditional flows in a real-world scenario.",
+        image: eat_n_split,
+        date: "21/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "lifting state", color: "green-text-gradient" },
+            { name: "shared props", color: "orange-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "React Counter + Todo App",
+        description: "Revision project covering useState, list rendering, controlled inputs, and conditional UI updates. A hands-on consolidation of prior concepts.",
+        image: react_counter_todo_app,
+        date: "22/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "todo", color: "green-text-gradient" },
+            { name: "state control", color: "orange-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Text Expander",
+        description: "A minor challenge while building usePopcorn. Created a reusable component with internal state logic to show/hide long text content.",
+        image: text_expander,
+        date: "23/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "state toggle", color: "green-text-gradient" },
+            { name: "reusability", color: "pink-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "How React Works",
+        description: "Took a theoretical break to understand React's internals: virtual DOM, reconciliation, rendering phases. Prepared me for deeper architectural decisions.",
+        image: how_react_works,
+        date: "24/12/24",
+        tags: [
+            { name: "virtual DOM", color: "purple-text-gradient" },
+            { name: "rendering", color: "green-text-gradient" },
+            { name: "architecture", color: "pink-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Currency Converter",
+        description: "Side project during usePopcorn. Introduced to `useEffect` and API data fetching. Learned to manage loading, error states, and data transformation.",
+        image: react_counter_todo_app,
+        date: "25/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "api", color: "green-text-gradient" },
+            { name: "useEffect", color: "orange-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "usePopcorn",
+        description: "Combined everything: state, effects, conditional rendering, lifting state, custom logic, and API interaction. Built a movie app with a watchlist and ratings.",
+        image: usePopcorn,
+        date: "26/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "omdb api", color: "green-text-gradient" },
+            { name: "localStorage", color: "yellow-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "React Quiz",
+        description: "Learned `useReducer` to handle complex state transitions. Built a quiz app with scoring, timers, and answer state. Marked a shift to structured state logic.",
+        image: react_quiz,
+        date: "27/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "useReducer", color: "purple-text-gradient" },
+            { name: "quiz logic", color: "green-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "Bank Account",
+        description: "Applied `useReducer` in a more realistic context. Simulated a bank interface with deposits, loans, and logins. Reinforced reducer patterns.",
+        image: react_counter_todo_app,
+        date: "28/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "useReducer", color: "purple-text-gradient" },
+            { name: "banking logic", color: "green-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    },
+    {
+        name: "WorldWise",
+        description: "Capstone project. Learned routing (React Router), Context API, geolocation, and performance optimization. Created a full travel app with persistent state.",
+        image: worldwise,
+        date: "29/12/24",
+        tags: [
+            { name: "react", color: "blue-text-gradient" },
+            { name: "react-router", color: "purple-text-gradient" },
+            { name: "context-api", color: "green-text-gradient" },
+            { name: "leaflet", color: "pink-text-gradient" }
+        ],
+        source_code_link: "#",
+        live_demo_link: "#"
+    }
+
+];
+
+
+
+export { services, technologies, learning, profiles, projects };

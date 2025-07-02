@@ -5,7 +5,6 @@ import About from './About';
 import Tech from './Tech';
 import Learning from './Learning';
 import Works from './Works';
-import Feedbacks from './Profiles';
 import Contact from './Contact';
 import Profiles from './Profiles';
 export {

@@ -59,6 +59,22 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="hidden sm:flex gap-3">
+          <a
+            href="/resume.pdf"
+            download
+            className="bg-[#A742F5] hover:bg-[#6d36c7] text-white text-sm px-4 py-2 rounded-lg transition"
+          >
+            Resume
+          </a>
+          <a
+            href="/progress-report.pdf"
+            download
+            className="bg-[#A742F5] hover:bg-[#6d36c7] text-white text-sm px-4 py-2 rounded-lg transition"
+          >
+            Progress Report
+          </a>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img

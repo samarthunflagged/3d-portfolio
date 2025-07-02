@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+import { profiles } from "../constants";
 
 const ProfileCard = ({
   index,
@@ -62,8 +62,8 @@ const Profiles = () => {
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <ProfileCard key={testimonial.name} index={index} {...testimonial} />
+        {profiles.map((profile, index) => (
+          <ProfileCard key={profile.name} index={index} {...profile} />
         ))}
       </div>
     </div>
