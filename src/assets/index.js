@@ -38,6 +38,7 @@ import steps from './steps.png'
 import text_expander from './text_expander.png'
 import tip_calculator from './tip_calculator.png'
 import travel_list from './travel_list.png'
+import more_coming_soon from './more_coming_soon.png'
 export {
   logo,
   ml,
@@ -82,5 +83,6 @@ export {
   steps,
   text_expander,
   tip_calculator,
-  travel_list
+  travel_list,
+  more_coming_soon
 };

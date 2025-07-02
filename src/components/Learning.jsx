@@ -16,8 +16,6 @@ const ExperienceCard = ({ project, index }) => {
         background: "transparent",
         boxShadow: "none",
         padding: "0",
-        display: 'flex',
-        justifyContent: 'center'
       }}
       contentArrowStyle={{ borderRight: "7px solid #232631" }}
       date={project.date || `Date ${index + 1}`}
