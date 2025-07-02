@@ -39,6 +39,8 @@ import text_expander from './text_expander.png'
 import tip_calculator from './tip_calculator.png'
 import travel_list from './travel_list.png'
 import more_coming_soon from './more_coming_soon.png'
+import bank_account from './bank_account.png'
+import currency_converter from './currency_converter.png'
 export {
   logo,
   ml,
@@ -84,5 +86,7 @@ export {
   text_expander,
   tip_calculator,
   travel_list,
-  more_coming_soon
+  more_coming_soon,
+  bank_account,
+  currency_converter
 };

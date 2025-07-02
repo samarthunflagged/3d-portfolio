@@ -33,7 +33,9 @@ import {
     react_counter_todo_app,
     text_expander,
     how_react_works,
-    react_quiz
+    react_quiz,
+    bank_account,
+    currency_converter
 
 } from "../assets";
 
@@ -451,7 +453,7 @@ const learning = [
     {
         name: "Currency Converter",
         description: "Side project during usePopcorn. Introduced to `useEffect` and API data fetching. Learned to manage loading, error states, and data transformation.",
-        image: react_counter_todo_app,
+        image: currency_converter,
         date: "25/12/24",
         tags: [
             { name: "react", color: "blue-text-gradient" },
@@ -490,7 +492,7 @@ const learning = [
     {
         name: "Bank Account",
         description: "Applied `useReducer` in a more realistic context. Simulated a bank interface with deposits, loans, and logins. Reinforced reducer patterns.",
-        image: react_counter_todo_app,
+        image: bank_account,
         date: "28/12/24",
         tags: [
             { name: "react", color: "blue-text-gradient" },
