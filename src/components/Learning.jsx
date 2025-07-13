@@ -74,7 +74,9 @@ const Learning = () => {
           This is a timeline of my React learning journey — where each step represents a milestone achieved by building mini-projects and real-world applications. Every project reflects a concept I explored, practiced, and applied to strengthen my development skills.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-col">
+
+      <div className="mt-20 flex flex-col items-center">
+        <h6 className="text-white mb-5 font-black md:text-[40px] sm:text-[30px] xs:text-[20px] text-[10px]">React.js</h6>
         <VerticalTimeline>
           {displayedProjects.map((project, index) => (
             <ExperienceCard key={index} project={project} index={index} />
@@ -86,10 +88,13 @@ const Learning = () => {
             onClick={handleToggle}
             className="bg-tertiary py-3 px-6 text-white rounded-xl hover:bg-[#3d3753] transition-all"
           >
-            {showAll ? "Show Less" : "View Entire Journey"}
+            {showAll ? "Show Less" : "View Entire React.js Journey"}
           </button>
         </div>
       </div>
+
+
+
     </>
   );
 };

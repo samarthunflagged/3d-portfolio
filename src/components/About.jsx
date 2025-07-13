@@ -34,7 +34,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae blanditiis quas quasi doloremque. Laborum molestias reiciendis quia beatae autem omnis libero ipsum, officia blanditiis, neque suscipit. Obcaecati assumenda nam repellat officiis, doloribus tempore quae a cupiditate libero sed atque corrupti quidem delectus omnis ab iusto vero harum non odio?
+        I'm a Web Developer with a strong foundation in Data Structures & Algorithms and a growing passion for Artificial Intelligence and Machine Learning. I enjoy building responsive, user-centric web applications using the MERN stack, and I continuously work on improving my problem-solving skills through platforms like LeetCode and Codeforces. Currently, I'm also diving into Machine Learning and Deep Learning to understand how intelligent systems work. I believe in disciplined learning, clean code, and building tech that makes a difference.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (<ServiceCard key={service.title} index={index}{...service} />))}
